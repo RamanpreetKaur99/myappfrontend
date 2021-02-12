@@ -31,11 +31,11 @@ function App() {
         <NavBar />
         <Switch>
           <Route exact path='/' component = {Home} />
-          <PrivateRoute exact path='/groceries' component = {Groceries} />
-          <PrivateRoute exact path='/todos' component = {ToDos} />
-          <PrivateRoute exact path='/events' component = {Events} />
-          <PrivateRoute exact path='/bills' component = {Bills} />
-          <PrivateRoute exact path='/location' component = {Location} />
+          <Route exact path='/groceries' component = {Groceries} />
+          <Route exact path='/todos' component = {ToDos} />
+          <Route exact path='/events' component = {Events} />
+          <Route exact path='/bills' component = {Bills} />
+          <Route exact path='/location' component = {Location} />
           <Route exact path='/register' component = {Register} />
           <Route esact path='/signup' component ={SignupForm} />
         </Switch>
